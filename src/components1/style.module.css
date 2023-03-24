@@ -1,0 +1,857 @@
+body{
+    height: 800px;
+    width: 100%;
+    background-image: url(pic/event2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% ; 
+    margin-top: 10px;
+}
+.header img{
+    width:9%;
+    float: left;
+    margin-right: 10px;
+    margin-top:1px ;
+    clip-path: circle();
+}
+.header h1{
+    height: 20px;;
+    margin: 10px 20px;
+    padding:10px 50px;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+    color:wheat;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 50px;
+}
+.section ul{
+    /* background-color:lightseagreen; */
+    margin-top: 100px;
+}
+
+.section li{
+    display:inline;
+    background-color:white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+   /*  padding-left:30% */;
+   padding-left: 210px;
+   padding-right: 20px;
+   margin-left: 0px;
+}
+.section li link :visited{
+    text-decoration: none;
+    color: black;
+    background: blueviolet;
+}
+.section li :hover{
+    background:gray;
+    border-radius: 20px;
+}
+.content h1{
+    font-size: 50px;
+    font-style: normal;
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 50px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.content p{
+    width: 660px;
+    font-size: 30px;
+    font-style:italic;
+    color: wheat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    text-indent: 58px;
+    text-size-adjust:initial;
+    padding-top: 50px;
+    word-spacing: 2px;
+    font-weight: bold;
+}
+.content img{
+    height: 400px;
+    width: 800px;
+    float:right;
+    margin-top: 80px;
+}
+.Ad{
+    border: 1px black solid;
+    width: 30%;
+    /* height: 40%; */
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 3fr; 
+    background-color:whitesmoke;
+    margin-left: 400px;
+    /* height:fit-content; */
+    width: 500px;
+    padding:10px
+}
+label{
+    font-size: 1px;
+    color:black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3px;
+}
+
+button{
+    margin-top: 5%;
+    padding: 3%;
+    width: fit-content;
+    color: black;
+    background-color: gray;
+    font-size: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+    align-self: center;
+}
+label{
+    font-size: 1px;
+    color:black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.Ad{
+    left: 50px;
+}
+.register{
+    left: 850px;
+}
+.sin{
+        border: 5px black solid;
+        width: 30%;
+        margin: 10% auto;
+        padding: 2%;
+        display: grid;
+        grid-template-columns: 3fr;
+        background-color:lightyellow;
+        margin-left: 20px;
+        height: fit-content;
+    
+}
+.sin button{
+    align-content: center;
+}
+.Ad li :link{
+    color: #000;
+    font-style: bold;
+    align-self: center;
+    font-size: 25px;
+}
+.sin li :link{
+    color: #000;
+    font-style: bold;
+    align-self: center;
+    font-size: 20px;
+}
+.formgroup{
+    border: 5px black solid;
+    width: 30%;
+    margin-top: 5%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 3fr;
+    background-color:lightyellow;
+    margin-left: 500px;
+    height: fit-content;
+    margin-bottom: 20%;
+
+}
+h3{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.formgroup [type="email"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+.sidebar{
+    width: 100%;
+    margin-top: 60px;
+    height: 100%;
+    opacity: 0.9;
+    position: fixed;
+}
+
+.sidebar li{
+    display:block;
+    background-color:darksalmon;
+    width: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    /* margin-top: 15px; */
+    padding: 25px;
+    border: black solid 3px;
+    /* border: width 30px;
+ */
+    margin-bottom: 20px;
+    margin-left: 35%;
+    
+}
+.sidebar li :link{
+    text-decoration: none;
+    color:black;
+    font-style: bold;
+}
+.sidebar li link :visited{
+    color: black;
+    background: blueviolet;
+}
+.sidebar li :hover{
+    background:lightgray;
+    border-radius: 20px;
+
+}
+.Cust{
+    border: 5px black solid;
+    width: 50%;
+    padding: 3%;
+    margin: 8% auto;
+    display: grid;
+    grid-template-columns: 3fr;
+    background-color:khaki;
+    margin-left: 20px;
+    height:fit-content;
+    margin-left: 450px;
+
+
+}
+label{
+
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+[type="text"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+[type="password"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+[type="number"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+    
+}
+
+[type="email"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+[type="address"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+[type="IDproofNo"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+button{
+    margin-top: 5%;
+    padding: 3%;
+    width: fit-content;
+    color: black;
+    background-color: gray;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    align-self: center;
+}
+label{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.Cust{
+    left: 50px;
+}
+.register{
+    left: 850px;
+}
+.pa{
+    color: red;
+    font-size: larger;
+    font-weight: 400;
+}
+.sidebar3{
+    /* width: 350px;
+    margin-top: 3px;
+    background-color:goldenrod;
+    opacity: 0.7;
+    height: fit-content;
+    position: fixed;
+    margin-left: 550px; */
+
+    width: 100%;
+    margin-top: 60px;
+    opacity: 0.9;
+    height: fit-content;
+    position: fixed;
+}
+
+.sidebar3 li{
+    display:block;
+    background-color:darksalmon;
+    width: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    border: black solid 3px;
+    border: width 20px;
+
+    padding: 30px;
+    border: black solid 4px;
+    margin-bottom: 25px;
+    margin-left: 35%;
+}
+.sidebar3 li :link{
+    text-decoration: none;
+    color: #000;
+    font-style: bold;
+}
+.sidebar3 li :hover{
+    background:lightgray;
+    border-radius: 20px;
+}
+.sin1{
+    border: 5px black solid;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 3fr;
+    background-color:lightyellow;
+    margin-left: 20px;
+    height: fit-content;
+
+}
+.sin1 button{
+align-content: center;
+}
+.Cust li :link{
+color: #000;
+font-style: bold;
+align-self: center;
+font-size: 25px;
+}
+.sin1 li :link{
+color: #000;
+font-style: bold;
+align-self: center;
+font-size: 20px;
+}
+.formgroup1{
+    border: 5px black solid;
+    width: 30%;
+    margin-top: 5%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 3fr;
+    background-color:lightyellow;
+    margin-left: 500px;
+    height: fit-content;
+    margin-bottom: 20%;
+
+}
+h3{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.formgroup1 [type="email"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+.sin_va{
+        border: 5px black solid;
+        width: 30%;
+        margin: 10% auto;
+        padding: 2%;
+        display: grid;
+        grid-template-columns: 3fr;
+        background-color:lightyellow;
+        margin-left: 20px;
+        height: fit-content;
+    
+ }
+.sin_va button{
+    align-content: center;
+    }
+.VA li :link{
+    color: #000;
+    font-style: bold;
+    align-self: center;
+    font-size: 25px;
+    }
+.sin_va li :link{
+    color: #000;
+    font-style: bold;
+    align-self: center;
+    font-size: 20px;
+    }
+.VA{
+    border: 5px black solid;
+    width: 50%;
+    padding: 3%;
+    margin: 10% auto;
+    display: grid;
+    grid-template-columns: 3fr;
+    background-color:lightyellow;
+    margin-left: 20px;
+    height:fit-content;
+    margin-left: 450px;
+
+
+}
+label{
+
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+/*     [type="text"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+[type="password"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+[type="contactno"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+[type="emailid"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+[type="address"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+} */
+button{
+    margin-top: 5%;
+    padding: 3%;
+    width: fit-content;
+    color: black;
+    background-color: gray;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    align-self: center;
+}
+label{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.VA{
+    left: 50px;
+}
+.register{
+    left: 850px;
+}
+.formgroup2{
+    border: 5px black solid;
+    width: 30%;
+    margin-top: 5%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 3fr;
+    background-color:lightsalmon;
+    margin-left: 500px;
+    height: fit-content;
+    margin-bottom: 20%;
+
+}
+h3{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.formgroup2 [type="email"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 20px;
+}
+.pa{
+    color:darkcyan;
+    font-size: larger;
+    font-weight: 400;
+    margin-left: 550px;
+    font-size:20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    background-color: white;
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-top: 8%;
+}
+.bookE{
+    color: white;
+    margin-left: 100px;
+}
+.bookE label{
+color:black;
+font-size: 40px;
+font-style: italic;
+margin-top: 30px;
+}
+.bookE select{
+font-size: 25px;
+width:fit-content;
+margin-left: 10px;
+}
+.bookE [type="text"]{
+font-size: 15px;
+width:fit-content;
+border-radius: 0%;
+padding: 10px;
+margin-left: 10px;
+}
+.bookE [type="date"]{
+font-size: 15px;
+width:fit-content;
+border-radius: 0%;
+padding: 8px;
+margin-left: 10px;
+}
+.bookE button{
+margin-top: 2%;
+padding: 1%;
+width: fit-content;
+color: black;
+background-color:lightblue;
+font-size: 25px;
+font-weight: bold;
+margin-left: 5px;
+margin-right: 550px;
+}
+.para1{
+margin-top: 50px;
+}
+.para1 label{
+margin-left: 30px;
+color:white;
+font: size 25px;
+font-weight: bold;
+margin-top: 50px;
+}
+.para1 textarea{
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+height: 250px;
+width: 450px;
+margin-bottom: 10px;
+margin-left: 350px;
+}
+.para1 button{
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 250px;
+height: fit-content;
+padding: 15px;
+background-color:gray;
+}
+.para1 [type="number"]{
+margin-left: 170px;
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 10px;
+height: fit-content;
+padding: 0%;
+border-radius: 5px;
+}
+.para1 [type="text"]{
+margin-top: 2%;
+margin-left: 2%;
+padding: 1%;
+border-radius: 5px;
+margin-bottom: 10px;
+font-size: 30px;
+font-weight: bold;
+}
+.bookE{
+margin-bottom: 100%;
+}
+.bookE li{
+display:block;
+width: 250px;
+height: fit-content;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-style: italic;
+text-align: center;
+font-size: 20px;
+padding: 10px;
+border: black solid 4px;
+background-color: white;
+margin-left: 340px;
+}
+.bookE li :link{
+text-decoration: none;
+color: #000;
+font-style: bold;
+}
+.bookE li :hover{
+background:gray;
+border-radius: 3px;
+}
+.bookE [type="number"]{
+margin:0%;
+padding:0.7%;
+border-radius: 0%;
+}
+.bookE [type="email"]{
+margin:1%;
+padding:0.7%;
+border-radius: 0%;
+}
+
+
+.resetform{
+    border: 2px black solid;
+    width: 50%;
+    margin-top: 10%;
+    padding: 2%;
+    display: grid;
+    margin-left: 25%;
+    background-color:whitesmoke;
+    height: fit-content;
+}
+.resetform [type="password"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.resetform h1{
+    background-color: gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.debitpay
+{
+    border: 2px black solid;
+    width: 100%;
+    margin: 10% auto;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 3fr;
+    background-color:whitesmoke;
+    margin-left: 20px;
+    height: fit-content;
+
+    margin-left: 30%;
+
+}
+.debitpay button {
+    width: 100px;;
+    background-color: green;
+    margin-right: 20px;
+}
+.debitpay [type="number"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.debitpay [type="month"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.debitpay [type="text"]{
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.search1{
+    background-color:lightcoral;
+    width: 98%;
+    height: 1000px;
+    font-weight: bold;
+    font-size:20px ;
+    color: blanchedalmond;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 7%;
+    
+    margin-bottom: 100%;
+}
+.search1 [type="text"]{
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+    }
+.search1 button{
+    background: lightskyblue;
+    height: fit-content;
+    padding: 20px;
+}
+.search2 li{
+    margin-left:70%;;
+}
+.search1 link{
+    text-decoration: none;
+    margin-left: 500px;
+}
+img{
+    margin-top: 90px;
+    width: 900px;
+    margin-left: 20px;
+    height: 70%;
+}
+img{
+    margin-top: 90px;
+    width: 900px;
+    margin-left: 20px;
+    height: 70%;
+}
+img{
+    margin-top: 90px;
+    width: 1000px;
+    margin-left: 20px;
+    height: 40%;
+}
+.tablefeedlist h1{
+    margin-top: 30px;
+}
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+   
+  .container {
+    width: 900px;
+  }
+  .s-box {
+    min-height: 433px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #f7f7f9;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),
+    0 2px 2px rgba(0,0,0,0.15),
+    0 4px 4px rgba(0,0,0,0.15),
+    0 8px 8px rgba(0,0,0,0.15);
+  }
+  label {
+    margin-bottom: 3px;
+  }
+  .spinner-border {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-width: .1em;
+  }
+  .cardgroup{
+    width: 30%;
+    margin-top: 5%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 3fr;
+
+    margin-left: 500px;
+    height: fit-content;
+    margin-bottom: 100%;
+    font-size: 40px;
+
+}
+.cardgroup svg {
+    font-size: 60px;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: white;
+    text-align:center;
+    margin-left: 150px;
+  }
+  .tablevenuelist{
+      margin-top: 20px;
+      color: black;
+  }
+  .tablevenuelist th{
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .inputStyles {
+    outline: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: black;
+}
+.inputStyles2 {
+    outline: none;
+    border-radius: 1px black;
+    font-weight: 700;
+    color: black;
+}
+
+  /*.success-msg {
+    color: #0f5132;
+    text-align: center;
+  }
+  .success-msg svg {
+    font-size: 60px;
+    border: 1px solid #0f5132;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  .success-msg .title {
+    font-size: 60px;
+    margin-top: 80px;
+    margin-top: 100%;
+    margin-bottom: 100%;
+  }*/
