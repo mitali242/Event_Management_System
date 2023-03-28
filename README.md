@@ -5,14 +5,11 @@
 - Event Management System allow you to quickly set up event page. Such management has a system in place that help event organizers track sales and other important metrics. The system provide secure mode of payment gateway. 
 
 ## Tools and Technologies
-
-Software Requirements: 
+ 
   - Front end: Html, CSS 
   - Backend: Mysql , php. 
-Tools/Technologies Used: 
   - Language: Java Script 
   - Platform: Windows 7 
-Hardware Requirements: 
   - Processor: any Pentium. 
   - RAM: minimum 1 GB. 
   - Hard disk: minimum 80GB. 
